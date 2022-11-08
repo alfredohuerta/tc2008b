@@ -26,6 +26,7 @@ public class FollowPlayer : MonoBehaviour
 
         // transform.position = player.transform.position + new Vector3(0,6,-7);
 
+        // Modifica la posición de la cámara con en base al movimiento del jugador.
         transform.position = player.transform.position + offset;
     }
 }
